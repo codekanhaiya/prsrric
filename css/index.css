@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    width: 50vw;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+}
+
+.header {
+    width: 50vw;
+    height: max-content;
+    background-color: #09afe6;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-family: sans-serif, 'Josefin Sans';
+    text-align: center;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 40px;
+}
+
+.page {
+    width: 50vw;
+    height: max-content;
+    background-color: #09afe6;
+    border-top: 2px solid #fff;
+    padding: 75px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+input[type="submit"]:hover {
+    background-color: aqua;
+    color: #000;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.inputBox{
+    position: relative;
+}
+
+.inputBox input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+}
+
+.inputBox label{
+    position: absolute;
+    top:0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #03a9f4;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    float: right;
+}
+
+.inputBox input:focus ~ label,
+.inputBox input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+}
